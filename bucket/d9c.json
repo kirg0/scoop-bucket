@@ -1,0 +1,35 @@
+{
+    "version": "1.29.0",
+    "description": "Terminal UI for managing Docker on remote hosts over TCP or SSH",
+    "homepage": "https://github.com/kirg0/d9c",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kirg0/d9c/releases/download/v1.29.0/d9c_v1.29.0_windows_amd64.zip",
+            "hash": "929517f93889b0e6efa72a7749957e7e290ace6e64648021f3ca7cbd8068e0f9",
+            "extract_dir": "d9c_v1.29.0_windows_amd64"
+        },
+        "arm64": {
+            "url": "https://github.com/kirg0/d9c/releases/download/v1.29.0/d9c_v1.29.0_windows_arm64.zip",
+            "hash": "869f2bdad1a20292afd82719b69b7dc886ec38067aece92ea956cea00faa91a3",
+            "extract_dir": "d9c_v1.29.0_windows_arm64"
+        }
+    },
+    "bin": "d9c.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kirg0/d9c/releases/download/v$version/d9c_v$version_windows_amd64.zip",
+                "extract_dir": "d9c_v$version_windows_amd64"
+            },
+            "arm64": {
+                "url": "https://github.com/kirg0/d9c/releases/download/v$version/d9c_v$version_windows_arm64.zip",
+                "extract_dir": "d9c_v$version_windows_arm64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
