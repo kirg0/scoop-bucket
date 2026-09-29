@@ -1,18 +1,18 @@
 {
-    "version": "1.29.1",
+    "version": "1.30.0",
     "description": "Terminal UI for managing Docker on remote hosts over TCP or SSH",
     "homepage": "https://github.com/kirg0/d9c",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kirg0/d9c/releases/download/v1.29.1/d9c_v1.29.1_windows_amd64.zip",
-            "hash": "a2a1f1255279614c3df8e01d118b4f6b43bb57d4563241a861c78f0bb5f0bb47",
-            "extract_dir": "d9c_v1.29.1_windows_amd64"
+            "url": "https://github.com/kirg0/d9c/releases/download/v1.30.0/d9c_v1.30.0_windows_amd64.zip",
+            "hash": "d69d64a3eeb2d8bad6f825d8b8090d0fedb6c1d4caf8522f9ad271df829ce2d8",
+            "extract_dir": "d9c_v1.30.0_windows_amd64"
         },
         "arm64": {
-            "url": "https://github.com/kirg0/d9c/releases/download/v1.29.1/d9c_v1.29.1_windows_arm64.zip",
-            "hash": "d73007045e5a8d1022ef62dc64daca8db29c6a1ac6ced12a8854d54f2a033972",
-            "extract_dir": "d9c_v1.29.1_windows_arm64"
+            "url": "https://github.com/kirg0/d9c/releases/download/v1.30.0/d9c_v1.30.0_windows_arm64.zip",
+            "hash": "859fdeee906ce577ccd74b0a7f5c5405a0b70af7e033652bbc110186e3a036d5",
+            "extract_dir": "d9c_v1.30.0_windows_arm64"
         }
     },
     "bin": "d9c.exe",
